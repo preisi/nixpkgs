@@ -67,8 +67,8 @@ let
   OvmfPkKek1AppPrefix = "4e32566d-8e9e-4f52-81d3-5bb9715f9727";
 
   debian-edk-src = fetchurl {
-    url = "http://deb.debian.org/debian/pool/main/e/edk2/edk2_2023.11-5.debian.tar.xz";
-    sha256 = "1yxlab4md30pxvjadr6b4xn6cyfw0c292q63pyfv4vylvhsb24g4";
+    url = "http://deb.debian.org/debian/pool/main/e/edk2/edk2_2024.05-1.debian.tar.xz";
+    sha256 = "a1400ae3f32c7b3b3a1066f165aa5985da74d1a6c4118b43d8458c19bd4e536f";
   };
 
   buildPrefix = "Build/*/*";
